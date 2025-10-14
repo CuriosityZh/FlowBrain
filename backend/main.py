@@ -32,5 +32,3 @@ async def startup_event():
 @app.get("/")
 async def root():
     return {"message": "Welcome to FlowBrain API"}
-
-
